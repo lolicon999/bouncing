@@ -59,7 +59,7 @@ public class WallReflection : MonoBehaviour {
 				break;
 
 			}
-			Debug.Log(rotateValue);
+			//Debug.Log(rotateValue);
 			other.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0,0,rotateValue));
 		}
 	}
